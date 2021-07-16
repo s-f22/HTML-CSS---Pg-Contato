@@ -38,6 +38,13 @@ header {
     justify-content: space-between;
     align-items: center;
     /* background-color: yellowgreen; */
+    
+}
+
+header div nav a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
@@ -45,6 +52,7 @@ main {
     justify-content: space-between;
     align-items: center;
     height: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .contato{
@@ -94,11 +102,17 @@ main {
 .msg{
     height: 125px;
     resize: none;
+    border-color: #660027;
+    border-width: 1px;
+    border-radius: 2px;
 }
 
 form div input{
     height: 42px;
     width: 100%;
+    border-color: #660027;
+    border-width: 1px;
+    border-radius: 2px;
 }
 
 .botao_enviar{
@@ -106,6 +120,7 @@ form div input{
     height: 42px;
     background-color: #660027;
     color: white;
+    border-radius: 5px;
 }
 
 aside{
